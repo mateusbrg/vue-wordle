@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import WordleBoard from '../components/WordleBoard.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <WordleBoard word-of-the-day="TEST" />
   </main>
 </template>
